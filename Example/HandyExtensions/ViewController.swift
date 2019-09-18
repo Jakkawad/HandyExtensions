@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import HandyExtensions
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        var animal: String = "CCC"
+        print(animal.cat)
     }
 
     override func didReceiveMemoryWarning() {
